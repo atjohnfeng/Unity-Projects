@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class CrashDetector : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.tag == "Player")
-        {
-            Debug.Log("You bumped your head!");
-        }
+        Debug.Log("You bumped your head!");
     }
 }
