@@ -67,6 +67,10 @@ public class Quiz : MonoBehaviour
 
     void SetDefaultButtonSprites()
     {
-
+        for (int i = 0; i < answerButtons.Length; i++)
+        {
+            Image buttonImage = answerButtons[i].GetComponent<Image>();
+            buttonImage.sprite = defaultAnswerSprite;
+        }
     }
 }
