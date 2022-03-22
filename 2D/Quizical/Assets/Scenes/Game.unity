@@ -988,8 +988,8 @@ MonoBehaviour:
   - {fileID: 1684304759}
   - {fileID: 1289231536}
   - {fileID: 432336805}
-  defaultAnswerSprite: {fileID: 0}
-  correctAnswerSprite: {fileID: 0}
+  defaultAnswerSprite: {fileID: 21300000, guid: 10e79aef4b525479f9850ee740d51454, type: 3}
+  correctAnswerSprite: {fileID: 21300000, guid: c3b9d0e82682049daa1b65ce5e1e7c86, type: 3}
 --- !u!1 &1289231536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6860432232045052615, guid: 215c2702b2519484e9582093a6d40681, type: 3}
