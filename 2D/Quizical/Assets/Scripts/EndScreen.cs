@@ -8,7 +8,7 @@ public class EndScreen : MonoBehaviour
     [SerializeField] TextMeshProUGUI finalScoreText;
     Scorekeeper scorekeeper;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         scorekeeper = FindObjectOfType<Scorekeeper>();   
     }
