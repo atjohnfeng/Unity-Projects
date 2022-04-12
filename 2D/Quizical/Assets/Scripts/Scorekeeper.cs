@@ -16,4 +16,19 @@ public class Scorekeeper : MonoBehaviour
     {
         correctAnswers++;
     }
+
+    public int GetQuestionSeen()
+    {
+        return questionsSeen;
+    }
+
+    public void IncrementQuestionsSeen()
+    {
+        questionsSeen++;
+    }
+
+    public int CalculateScore()
+    {
+        return Mathf.RoundToInt(correctAnswers / (float)questionsSeen * 100);
+    }
 }
