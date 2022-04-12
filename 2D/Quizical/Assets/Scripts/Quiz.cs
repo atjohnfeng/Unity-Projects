@@ -61,8 +61,6 @@ public class Quiz : MonoBehaviour
 
     void DisplayAnswer(int index)
     {
-        // Image buttonImage;
-
         if (index == currentQuestion.getAnswerIndex())
         {
             questionText.text = "Correct";
