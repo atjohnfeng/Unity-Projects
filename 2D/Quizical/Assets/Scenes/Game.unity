@@ -658,6 +658,7 @@ MonoBehaviour:
   timeToShowCorrectAnswer: 10
   loadNextQuestion: 0
   fillFraction: 0
+  isAnsweringQuestion: 0
 --- !u!1 &432336805 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6860432232045052615, guid: 215c2702b2519484e9582093a6d40681, type: 3}
@@ -1075,7 +1076,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1355593655}
-  question: {fileID: 11400000, guid: 1d04e0b89fc51442d9d0cc328c4d2275, type: 2}
+  questions:
+  - {fileID: 11400000, guid: afac3762ab08b42f08bd8910b5e222af, type: 2}
+  - {fileID: 11400000, guid: 722775c2070544668a91c376f25672bb, type: 2}
+  - {fileID: 11400000, guid: d226b500c350745b18f821a66fb0644f, type: 2}
+  - {fileID: 11400000, guid: 35ed8dc8677fa473f8b595095cde2d60, type: 2}
+  - {fileID: 11400000, guid: 1d04e0b89fc51442d9d0cc328c4d2275, type: 2}
   answerButtons:
   - {fileID: 1511882413}
   - {fileID: 1684304759}
